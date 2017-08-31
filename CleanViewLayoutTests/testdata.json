@@ -1,0 +1,10 @@
+{
+    "name" : "Dinky",
+    "brand" : "Jackson",
+    "frets"  :  24,
+    "fretboard" : "maple wood",
+    "strings" : 6,
+    "body" : "maple wood",
+    "inlays" : "shark tooth inlays",
+    "headstock" : "reverse headstock"
+}

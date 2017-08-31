@@ -7,12 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F2DC5001F57D33B001F7DB8 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 9F2DC4FF1F57D33B001F7DB8 /* data.json */; };
+		9F2DC5021F57D468001F7DB8 /* JSONDeserializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2DC5011F57D468001F7DB8 /* JSONDeserializable.swift */; };
+		9F2DC5041F57D5D9001F7DB8 /* GuitarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2DC5031F57D5D9001F7DB8 /* GuitarViewController.swift */; };
+		9F2DC5071F57D681001F7DB8 /* Guitar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2DC5061F57D681001F7DB8 /* Guitar.swift */; };
+		9FDD2C2C1F57EFD300296A54 /* GuitarViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDD2C2B1F57EFD300296A54 /* GuitarViewControllerTests.swift */; };
+		9FDD2C2F1F57F29300296A54 /* testdata.json in Resources */ = {isa = PBXBuildFile; fileRef = 9FDD2C2E1F57F29300296A54 /* testdata.json */; };
+		9FDD2C311F57F2CD00296A54 /* XCTestCaseExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDD2C301F57F2CD00296A54 /* XCTestCaseExtension.swift */; };
+		9FDD2C331F57F30F00296A54 /* GuitarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDD2C321F57F30F00296A54 /* GuitarTests.swift */; };
 		9FF6BFD91F57D1360030E6DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF6BFD81F57D1360030E6DF /* AppDelegate.swift */; };
-		9FF6BFDB1F57D1360030E6DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF6BFDA1F57D1360030E6DF /* ViewController.swift */; };
-		9FF6BFDE1F57D1360030E6DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FF6BFDC1F57D1360030E6DF /* Main.storyboard */; };
 		9FF6BFE01F57D1360030E6DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FF6BFDF1F57D1360030E6DF /* Assets.xcassets */; };
 		9FF6BFE31F57D1360030E6DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FF6BFE11F57D1360030E6DF /* LaunchScreen.storyboard */; };
-		9FF6BFEE1F57D1360030E6DF /* CleanViewLayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF6BFED1F57D1360030E6DF /* CleanViewLayoutTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,15 +31,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9F2DC4FF1F57D33B001F7DB8 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		9F2DC5011F57D468001F7DB8 /* JSONDeserializable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONDeserializable.swift; sourceTree = "<group>"; };
+		9F2DC5031F57D5D9001F7DB8 /* GuitarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuitarViewController.swift; sourceTree = "<group>"; };
+		9F2DC5061F57D681001F7DB8 /* Guitar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Guitar.swift; sourceTree = "<group>"; };
+		9FDD2C2B1F57EFD300296A54 /* GuitarViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuitarViewControllerTests.swift; sourceTree = "<group>"; };
+		9FDD2C2E1F57F29300296A54 /* testdata.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = testdata.json; sourceTree = "<group>"; };
+		9FDD2C301F57F2CD00296A54 /* XCTestCaseExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCTestCaseExtension.swift; sourceTree = "<group>"; };
+		9FDD2C321F57F30F00296A54 /* GuitarTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuitarTests.swift; sourceTree = "<group>"; };
 		9FF6BFD51F57D1360030E6DF /* CleanViewLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CleanViewLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FF6BFD81F57D1360030E6DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9FF6BFDA1F57D1360030E6DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9FF6BFDD1F57D1360030E6DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9FF6BFDF1F57D1360030E6DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FF6BFE21F57D1360030E6DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9FF6BFE41F57D1360030E6DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9FF6BFE91F57D1360030E6DF /* CleanViewLayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CleanViewLayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9FF6BFED1F57D1360030E6DF /* CleanViewLayoutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanViewLayoutTests.swift; sourceTree = "<group>"; };
 		9FF6BFEF1F57D1360030E6DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,6 +66,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9F2DC4FC1F57D315001F7DB8 /* Fixtures */ = {
+			isa = PBXGroup;
+			children = (
+				9F2DC4FF1F57D33B001F7DB8 /* data.json */,
+			);
+			name = Fixtures;
+			sourceTree = "<group>";
+		};
+		9F2DC4FD1F57D31A001F7DB8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9F2DC5031F57D5D9001F7DB8 /* GuitarViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		9F2DC4FE1F57D324001F7DB8 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				9F2DC5011F57D468001F7DB8 /* JSONDeserializable.swift */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		9F2DC5051F57D5ED001F7DB8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9F2DC5061F57D681001F7DB8 /* Guitar.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		9FF6BFCC1F57D1360030E6DF = {
 			isa = PBXGroup;
 			children = (
@@ -77,9 +119,11 @@
 		9FF6BFD71F57D1360030E6DF /* CleanViewLayout */ = {
 			isa = PBXGroup;
 			children = (
+				9F2DC5051F57D5ED001F7DB8 /* Model */,
+				9F2DC4FE1F57D324001F7DB8 /* Protocols */,
+				9F2DC4FD1F57D31A001F7DB8 /* ViewControllers */,
+				9F2DC4FC1F57D315001F7DB8 /* Fixtures */,
 				9FF6BFD81F57D1360030E6DF /* AppDelegate.swift */,
-				9FF6BFDA1F57D1360030E6DF /* ViewController.swift */,
-				9FF6BFDC1F57D1360030E6DF /* Main.storyboard */,
 				9FF6BFDF1F57D1360030E6DF /* Assets.xcassets */,
 				9FF6BFE11F57D1360030E6DF /* LaunchScreen.storyboard */,
 				9FF6BFE41F57D1360030E6DF /* Info.plist */,
@@ -90,8 +134,11 @@
 		9FF6BFEC1F57D1360030E6DF /* CleanViewLayoutTests */ = {
 			isa = PBXGroup;
 			children = (
-				9FF6BFED1F57D1360030E6DF /* CleanViewLayoutTests.swift */,
 				9FF6BFEF1F57D1360030E6DF /* Info.plist */,
+				9FDD2C2B1F57EFD300296A54 /* GuitarViewControllerTests.swift */,
+				9FDD2C301F57F2CD00296A54 /* XCTestCaseExtension.swift */,
+				9FDD2C321F57F30F00296A54 /* GuitarTests.swift */,
+				9FDD2C2E1F57F29300296A54 /* testdata.json */,
 			);
 			path = CleanViewLayoutTests;
 			sourceTree = "<group>";
@@ -150,6 +197,7 @@
 					};
 					9FF6BFE81F57D1360030E6DF = {
 						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 9FF6BFD41F57D1360030E6DF;
 					};
@@ -180,8 +228,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FF6BFE31F57D1360030E6DF /* LaunchScreen.storyboard in Resources */,
+				9F2DC5001F57D33B001F7DB8 /* data.json in Resources */,
 				9FF6BFE01F57D1360030E6DF /* Assets.xcassets in Resources */,
-				9FF6BFDE1F57D1360030E6DF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FDD2C2F1F57F29300296A54 /* testdata.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,8 +248,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9FF6BFDB1F57D1360030E6DF /* ViewController.swift in Sources */,
 				9FF6BFD91F57D1360030E6DF /* AppDelegate.swift in Sources */,
+				9F2DC5041F57D5D9001F7DB8 /* GuitarViewController.swift in Sources */,
+				9F2DC5021F57D468001F7DB8 /* JSONDeserializable.swift in Sources */,
+				9F2DC5071F57D681001F7DB8 /* Guitar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,7 +259,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9FF6BFEE1F57D1360030E6DF /* CleanViewLayoutTests.swift in Sources */,
+				9FDD2C311F57F2CD00296A54 /* XCTestCaseExtension.swift in Sources */,
+				9FDD2C2C1F57EFD300296A54 /* GuitarViewControllerTests.swift in Sources */,
+				9FDD2C331F57F30F00296A54 /* GuitarTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,14 +276,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9FF6BFDC1F57D1360030E6DF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9FF6BFDD1F57D1360030E6DF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9FF6BFE11F57D1360030E6DF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -366,10 +411,12 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = CleanViewLayoutTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = vinayganesh.CleanViewLayoutTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CleanViewLayout.app/CleanViewLayout";
 			};
@@ -380,6 +427,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = CleanViewLayoutTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = vinayganesh.CleanViewLayoutTests;
@@ -408,6 +456,7 @@
 				9FF6BFF41F57D1360030E6DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9FF6BFF51F57D1360030E6DF /* Build configuration list for PBXNativeTarget "CleanViewLayoutTests" */ = {
 			isa = XCConfigurationList;
@@ -416,6 +465,7 @@
 				9FF6BFF71F57D1360030E6DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

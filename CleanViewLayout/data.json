@@ -1,0 +1,10 @@
+{
+    "name" : "Warlock",
+    "brand" : "BC Rich",
+    "frets"  :  24,
+    "fretboard" : "rose wood",
+    "strings" : 6,
+    "body" : "bass wood",
+    "inlays" : "diamond inlays",
+    "headstock" : "widow headstock"
+}
