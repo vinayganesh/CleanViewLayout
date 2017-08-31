@@ -36,9 +36,16 @@ class GuitarViewControllerTests: XCTestCase {
         XCTAssertEqual(displayable, viewController.displayable)
     }
     
-    func testDisplayable() {
+    func testDisplayableWithMockData() {
         let displayable = MockDisplayable()
         let viewController = GuitarViewController(displayable: displayable)
         XCTAssertEqual(displayable.body, viewController.displayable.body)
+    }
+    
+    func testDisplayableWithMockJsonData() {
+        let json = loadFixture("testdata")
+        let guitar = Guitar(dictionary: json!)
+        let viewController = GuitarViewController(displayable: guitar!)
+        XCTAssertEqual(viewController.displayable, guitar)
     }
 }
