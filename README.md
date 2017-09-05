@@ -9,3 +9,9 @@ A class should have one and only one entry point, i.e., if a class needs any dat
 # Solution
 
 There are couple of ways to solve this problem, but a swifty elegant way of unit testing the view controllers is using the protocols. Create a protocol for a viewcontroller with properties and let the UI controls use the value of this protocol properties to set the text value. What happens in this case is, while unit testing, you will have the protocol being mocked with any type of data for edge cases and the single entry point to the application is still maintained. 
+
+# Slather Integration
+You can test this application using command line and check the code coverage using slather. Here are the steps to install slather, 
+1. Slather needs the latest version of ruby installed so install ruby using brew with the command `brew install ruby`
+2. Install slather using the command `sudo gem install slather`
+Once slather is installed, from the root folder of this application just run `sh test.sh` and you will be able to see the test results with the code coverage. 
