@@ -118,7 +118,6 @@ class GuitarViewController<Displayable: GuitarViewControllerDisplayable>: UIView
         stringsLabel.text = String(displayable.strings)
         bodyLabel.text = displayable.body
         headStockLabel.text = displayable.headStock
-        
     
         // add the labels to the stackview
         stackView.addArrangedSubview(nameLabel)

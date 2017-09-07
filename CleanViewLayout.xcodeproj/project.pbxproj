@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F0C1B281F6105F20021697F /* AppDelegateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0C1B271F6105F20021697F /* AppDelegateExtension.swift */; };
 		9F2DC5001F57D33B001F7DB8 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 9F2DC4FF1F57D33B001F7DB8 /* data.json */; };
 		9F2DC5021F57D468001F7DB8 /* JSONDeserializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2DC5011F57D468001F7DB8 /* JSONDeserializable.swift */; };
 		9F2DC5041F57D5D9001F7DB8 /* GuitarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2DC5031F57D5D9001F7DB8 /* GuitarViewController.swift */; };
@@ -31,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9F0C1B271F6105F20021697F /* AppDelegateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegateExtension.swift; sourceTree = "<group>"; };
 		9F2DC4FF1F57D33B001F7DB8 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 		9F2DC5011F57D468001F7DB8 /* JSONDeserializable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONDeserializable.swift; sourceTree = "<group>"; };
 		9F2DC5031F57D5D9001F7DB8 /* GuitarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuitarViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +68,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9F0C1B261F6105E40021697F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9F0C1B271F6105F20021697F /* AppDelegateExtension.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
 		9F2DC4FC1F57D315001F7DB8 /* Fixtures */ = {
 			isa = PBXGroup;
 			children = (
@@ -119,6 +129,7 @@
 		9FF6BFD71F57D1360030E6DF /* CleanViewLayout */ = {
 			isa = PBXGroup;
 			children = (
+				9F0C1B261F6105E40021697F /* Extensions */,
 				9F2DC5051F57D5ED001F7DB8 /* Model */,
 				9F2DC4FE1F57D324001F7DB8 /* Protocols */,
 				9F2DC4FD1F57D31A001F7DB8 /* ViewControllers */,
@@ -251,6 +262,7 @@
 				9FF6BFD91F57D1360030E6DF /* AppDelegate.swift in Sources */,
 				9F2DC5041F57D5D9001F7DB8 /* GuitarViewController.swift in Sources */,
 				9F2DC5021F57D468001F7DB8 /* JSONDeserializable.swift in Sources */,
+				9F0C1B281F6105F20021697F /* AppDelegateExtension.swift in Sources */,
 				9F2DC5071F57D681001F7DB8 /* Guitar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
